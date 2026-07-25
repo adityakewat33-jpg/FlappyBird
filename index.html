@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlappyBird  - Flap, Collect & Climb the Leaderboard!</title>
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Download FlappyBird Arcade for Android. Experience power-ups, daily lucky spins, global leaderboards, and multiple high-contrast theme levels. Get the direct APK now!">
+    <meta name="keywords" content="FlappyBird, FlappyBird Arcade, Android Game, Download APK, Flappy Bird Android, Amazon Appstore, Mobile Game">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Core Style -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Background Gradient and Wave Effects -->
+    <div class="oceanic-bg">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="glow-orb orb1"></div>
+        <div class="glow-orb orb2"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo-area" id="nav-logo">
+                <img src="assets/app_logo.jpg" alt="FlappyBird Arcade Logo" class="nav-logo-img">
+                <span class="logo-text">FlappyBird</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#spin-wheel" class="nav-link">Lucky Spin</a>
+                <a href="#themes" class="nav-link">Themes</a>
+                <a href="#install-guide" class="nav-link">Install Guide</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#download" class="btn btn-nav btn-shine">Download</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Dropdown Menu -->
+        <div class="mobile-dropdown" id="mobile-menu">
+            <a href="#features" class="mobile-link">Features</a>
+            <a href="#spin-wheel" class="mobile-link">Lucky Spin</a>
+            <a href="#themes" class="mobile-link">Themes</a>
+            <a href="#install-guide" class="mobile-link">Install Guide</a>
+            <a href="#download" class="btn btn-primary btn-shine mobile-cta-btn">Download APK</a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="download">
+            <div class="hero-container">
+                <div class="hero-content">
+                    
+                    <h1 class="hero-title animate-slide-up">
+                        FlappyBird  <br>
+                        <span class="text-gradient">Flap, Collect & Beat the Leaderboard!</span>
+                    </h1>
+                    <p class="hero-subtitle animate-slide-up-delay">
+                        The ultimate modern arcade experience is here. Harness epic power-ups, customize with vibrant themes, and spin the daily wheel to conquer the global ranks. Optimized for all Android devices.
+                    </p>
+                    
+                    <div class="hero-ctas animate-slide-up-delay2">
+                        <a href="assets/flappybird-arcade..apk" class="btn btn-primary btn-shine" id="btn-apk-download">
+                            <span class="btn-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                                </svg>
+                            </span>
+                            <div class="btn-text-wrapper">
+                                <span class="btn-subtext">Direct APK File</span>
+                                <span class="btn-maintext">Download for Android</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.amazon.com/gp/mas/get-appstore/android" target="_blank" rel="noopener" class="btn btn-secondary" id="btn-amazon-store">
+                            <span class="btn-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/>
+                                </svg>
+                            </span>
+                            <div class="btn-text-wrapper">
+                                <span class="btn-subtext">Amazon Appstore</span>
+                                <span class="btn-maintext">Get it on Amazon</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="hero-meta animate-slide-up-delay2">
+                        <span class="meta-item">📦 APK Size: ~18MB</span>
+                        <span class="meta-separator">•</span>
+                        <span class="meta-item">🤖 Android 6.0+</span>
+                        <span class="meta-separator">•</span>
+                        <span class="meta-item">⭐ Rating: 4.8/5</span>
+                    </div>
+                </div>
+
+                <!-- Hero Image Side (App Badge with modern effects) -->
+                <div class="hero-image-side animate-scale-in">
+                    <div class="app-icon-wrapper">
+                        <div class="app-icon-glow"></div>
+                        <img src="assets/app-icon.jpg" alt="FlappyBird Arcade Icon Badge" class="main-app-icon">
+                        <div class="app-icon-decoration-1"></div>
+                        <div class="app-icon-decoration-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Features Grid Section -->
+        <section class="section features-section" id="features">
+            <div class="section-header">
+                <h2 class="section-title">Elevate Your Flapping Flight</h2>
+                <p class="section-subtitle">Experience FlappyBird remastered with modern console-grade powerups, interactive spins, global rivalries, and gorgeous environments.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- FEATURE 1: Epic Powerups -->
+                <div class="glass-card feature-card feature-powerups" id="card-powerups">
+                    <div class="card-glow"></div>
+                    <div class="card-icon-header">
+                        <span class="card-emoji-icon">🛡️</span>
+                        <span class="feature-badge">NEW</span>
+                    </div>
+                    <h3>Epic Power-Ups</h3>
+                    <p>Level up your game with unique in-flight perks designed to save you from tight spots and multiply your earnings.</p>
+                    
+                    <ul class="powerups-list">
+                        <li>
+                            <span class="powerup-badge shield">Shield</span>
+                            <span class="powerup-desc">Absorbs one obstacle collision.</span>
+                        </li>
+                        <li>
+                            <span class="powerup-badge magnet">Magnet</span>
+                            <span class="powerup-desc">Pulls all surrounding coins to you.</span>
+                        </li>
+                        <li>
+                            <span class="powerup-badge shrink">Shrink</span>
+                            <span class="powerup-desc">Shrinks your bird to navigate tiny gaps.</span>
+                        </li>
+                        <li>
+                            <span class="powerup-badge slomo">Slomo</span>
+                            <span class="powerup-desc">Time-warps speed for easier control.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- FEATURE 2: Daily Lucky Spin -->
+                <div class="glass-card feature-card feature-spin" id="spin-wheel">
+                    <div class="card-glow"></div>
+                    <div class="card-icon-header">
+                        <span class="card-emoji-icon">🎡</span>
+                    </div>
+                    <h3>Daily Lucky Spin</h3>
+                    <p>Spin the wheel once a day to win coin treasures! Test your luck and bag up to 1000 free coins.</p>
+                    
+                    <!-- Interactive Spin Wheel Widget -->
+                    <div class="spin-widget-container">
+                        <div class="wheel-outer">
+                            <div class="wheel-pointer"></div>
+                            <div class="wheel-inner" id="spin-wheel-element">
+                                <div class="wheel-segment" style="--i:1; --color: #ff3366;"><span class="seg-val">100</span></div>
+                                <div class="wheel-segment" style="--i:2; --color: #ff9900;"><span class="seg-val">250</span></div>
+                                <div class="wheel-segment" style="--i:3; --color: #33cc66;"><span class="seg-val">50</span></div>
+                                <div class="wheel-segment" style="--i:4; --color: #3399ff;"><span class="seg-val">500</span></div>
+                                <div class="wheel-segment" style="--i:5; --color: #9933ff;"><span class="seg-val">150</span></div>
+                                <div class="wheel-segment" style="--i:6; --color: #ffcc00;"><span class="seg-val">1000</span></div>
+                                <div class="wheel-segment" style="--i:7; --color: #00ffcc;"><span class="seg-val">300</span></div>
+                                <div class="wheel-segment" style="--i:8; --color: #ff66cc;"><span class="seg-val">750</span></div>
+                            </div>
+                            <div class="wheel-center-btn" id="spin-btn">SPIN</div>
+                        </div>
+                        <div class="spin-result" id="spin-status-text">Ready to Spin!</div>
+                    </div>
+                </div>
+
+                <!-- FEATURE 3: Custom Themes -->
+                <div class="glass-card feature-card feature-themes" id="themes">
+                    <div class="card-glow"></div>
+                    <div class="card-icon-header">
+                        <span class="card-emoji-icon">🎨</span>
+                    </div>
+                    <h3>High-Contrast Themes</h3>
+                    <p>Escape the green pipes. Customize your graphics instantly. Choose from 6 custom vibrant backdrops.</p>
+                    
+                    <!-- Interactive Theme Switcher Previewer -->
+                    <div class="theme-preview-box">
+                        <div class="phone-mockup-frame">
+                            <div class="phone-notch"></div>
+                            <div class="phone-screen-container" id="theme-screen-bg">
+                                <div class="mock-level-header">
+                                    <span class="mock-score">Score: 42</span>
+                                    <span class="mock-theme-title" id="mock-theme-name">Green Forest</span>
+                                </div>
+                                <div class="mock-clouds">
+                                    <div class="cloud c1"></div>
+                                    <div class="cloud c2"></div>
+                                </div>
+                                <div class="mock-bird" id="mock-bird-element"></div>
+                                <div class="mock-pipe pipe-top" id="pipe-t"></div>
+                                <div class="mock-pipe pipe-bottom" id="pipe-b"></div>
+                                <div class="mock-ground"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="theme-buttons-container">
+                            <button class="theme-btn active" data-theme="green-forest" data-bg="linear-gradient(to bottom, #114b30, #1b8a5a)" data-color="#1b8a5a" data-bird="#ffdb4d" data-pipcolor="#2ecc71">Forest</button>
+                            <button class="theme-btn" data-theme="sunset" data-bg="linear-gradient(to bottom, #fd746c, #ff9068)" data-color="#ff9068" data-bird="#ffffff" data-pipcolor="#e67e22">Sunset</button>
+                            <button class="theme-btn" data-theme="snowy-mountains" data-bg="linear-gradient(to bottom, #83a4d4, #b6fbff)" data-color="#b6fbff" data-bird="#ff5252" data-pipcolor="#3498db">Snowy</button>
+                            <button class="theme-btn" data-theme="starry-night" data-bg="linear-gradient(to bottom, #0f2027, #203a43)" data-color="#203a43" data-bird="#00e5ff" data-pipcolor="#9b59b6">Starry</button>
+                            <button class="theme-btn" data-theme="desert" data-bg="linear-gradient(to bottom, #f4a261, #e76f51)" data-color="#e76f51" data-bird="#3d5a80" data-pipcolor="#e9c46a">Desert</button>
+                            <button class="theme-btn" data-theme="sunny-day" data-bg="linear-gradient(to bottom, #2980b9, #6dd5fa)" data-color="#6dd5fa" data-bird="#f1c40f" data-pipcolor="#27ae60">Sunny</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FEATURE 4: Global Leaderboard -->
+                <div class="glass-card feature-card feature-leaderboard" id="leaderboard">
+                    <div class="card-glow"></div>
+                    <div class="card-icon-header">
+                        <span class="card-emoji-icon">🏆</span>
+                    </div>
+                    <h3>Global Leaderboards</h3>
+                    <p>Beat the world! Realtime leaderboard comparisons synced across the globe using Firebase integration.</p>
+                    
+                    <div class="leaderboard-container">
+                        <div class="leaderboard-tabs">
+                            <button class="lead-tab active" data-tab="global">Global All-Time</button>
+                            <button class="lead-tab" data-tab="weekly">Weekly Top</button>
+                        </div>
+                        
+                        <div class="leaderboard-rows" id="leaderboard-rows-container">
+                            <!-- Populated dynamically via JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- APK Installation Guide Section -->
+        <section class="section install-guide-section" id="install-guide">
+            <div class="section-header">
+                <h2 class="section-title">Direct APK Installation Guide</h2>
+                <p class="section-subtitle">Installing our APK is safe and takes less than 30 seconds. Follow these steps to get airborne.</p>
+            </div>
+
+            <div class="install-guide-box glass-card">
+                <div class="card-glow"></div>
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-badge">1</div>
+                        <h4>Download APK</h4>
+                        <p>Click the <a href="#download" class="inline-link">Download</a> button above. Your browser will start downloading the secure <strong>flappybird-arcade.apk</strong> bundle.</p>
+                    </div>
+
+                    <div class="step-divider-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-badge">2</div>
+                        <h4>Open the File</h4>
+                        <p>Pull down your notification shade or head to your device's <strong>Downloads folder</strong>, then tap the downloaded APK file to begin install.</p>
+                    </div>
+
+                    <div class="step-divider-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-badge">3</div>
+                        <h4>Toggle Permissions</h4>
+                        <p>If prompted with a security warn, click <strong>Settings</strong> and toggle on <strong>"Allow installation from this source"</strong> or <em>Unknown Sources</em>.</p>
+                    </div>
+                </div>
+
+                <div class="security-warning">
+                    <span class="warning-icon">🛡️</span>
+                    <p><strong>100% Safe & Verified:</strong> The direct APK file is cryptographically signed, scanned for viruses, and completely safe for your Android mobile device.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo-area">
+                    <img src="assets/app-icon.jpg" alt="FlappyBird Arcade Logo" class="footer-logo-img">
+                    <span class="logo-text">FlappyBird</span>
+                </div>
+                <p class="footer-description">A high-fidelity modern remake of the beloved arcade classic. Flap your wings, collect rare gold coins, trigger abilities, and dominate global leaderboards.</p>
+            </div>
+            
+            <div class="footer-links-group">
+                <h4>Legal & Support</h4>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="/app-ads.txt" class="footer-ad-link">Ad-Tech Validation (app-ads.txt)</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 FlappyBird Arcade. Android and Amazon are trademarks of their respective owners. This application is an independent release.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive JS Script -->
+    <script src="app.js"></script>
+</body>
+</html>
